@@ -1,0 +1,50 @@
+node-stream-each (1.2.3-2) unstable; urgency=medium
+
+  * Team upload
+  * Bump debhelper compatibility level to 13
+  * Modernize debian/watch
+  * Fix GitHub tags regex
+  * Use dh-sequence-nodejs
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Fix test for tape ≥ 5 (Closes: #997583)
+
+ -- Yadd <yadd@debian.org>  Sun, 24 Oct 2021 08:56:18 +0200
+
+node-stream-each (1.2.3-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Xavier Guimard ]
+  * Declare compliance with policy 4.5.0
+  * Use pkg-js-tools auto test & install
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Add upstream/metadata
+  * New upstream version 1.2.3
+  * Embed ndjson for test only
+  * Update test dependencies
+
+ -- Xavier Guimard <yadd@debian.org>  Thu, 26 Mar 2020 13:32:31 +0100
+
+node-stream-each (1.2.2-2) unstable; urgency=medium
+
+  * Enable nocheck build profile
+  * Bump debhelper compatibility level to 11
+  * Use salsa.debian.org in Vcs-* fields
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 16 Oct 2018 17:28:57 +0530
+
+node-stream-each (1.2.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #878790)
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 16 Oct 2017 21:43:27 +0530
